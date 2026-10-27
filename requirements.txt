@@ -1,0 +1,14 @@
+# Direct dependencies, versions taken from the project conda env (torch):
+#   D:\Anaconda\envs\torch\python.exe
+# Note: scipy must stay <1.17 for mne 1.9.0 (sph_harm removal).
+numpy==1.26.4
+scipy==1.16.3
+pandas==3.0.5
+matplotlib==3.10.0
+mne==1.9.0
+h5py==3.13.0
+PyYAML==6.0.2
+spectrum==0.10.0
+tftb==0.2.0
+PyWavelets==1.9.0
+tqdm==4.67.1
